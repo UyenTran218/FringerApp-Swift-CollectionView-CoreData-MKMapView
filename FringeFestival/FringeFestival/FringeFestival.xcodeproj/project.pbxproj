@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58329FA2255E779600C979AE /* heart_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 58329FA1255E779600C979AE /* heart_dark.png */; };
+		58329FA4255E779E00C979AE /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 58329FA3255E779E00C979AE /* heart.png */; };
+		586EE03025493EE0004D3DB1 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EE02F25493EE0004D3DB1 /* Ratings.swift */; };
+		5884943225398D1200008AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884943125398D1200008AC2 /* AppDelegate.swift */; };
+		5884943525398D1200008AC2 /* FringeFestival.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5884943325398D1200008AC2 /* FringeFestival.xcdatamodeld */; };
+		5884943725398D1200008AC2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884943625398D1200008AC2 /* MasterViewController.swift */; };
+		5884943925398D1200008AC2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884943825398D1200008AC2 /* DetailViewController.swift */; };
+		5884943E25398D1300008AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5884943D25398D1300008AC2 /* Assets.xcassets */; };
+		5884946A2539974E00008AC2 /* 0002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 588494652539974D00008AC2 /* 0002.jpg */; };
+		5884946B2539974E00008AC2 /* 0001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 588494662539974D00008AC2 /* 0001.jpg */; };
+		5884946C2539974E00008AC2 /* 0004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 588494672539974D00008AC2 /* 0004.jpg */; };
+		5884946D2539974E00008AC2 /* 0005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 588494682539974D00008AC2 /* 0005.jpg */; };
+		5884946E2539974E00008AC2 /* 0003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 588494692539974E00008AC2 /* 0003.jpg */; };
+		588494702539978900008AC2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884946F2539978900008AC2 /* SwiftyJSON.swift */; };
+		58849472253998FC00008AC2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58849471253998FC00008AC2 /* DataManager.swift */; };
+		5884947425399E2300008AC2 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884947325399E2300008AC2 /* Cell.swift */; };
+		588494782539A00F00008AC2 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588494772539A00F00008AC2 /* EventViewController.swift */; };
+		5884947A2539AA5400008AC2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588494792539AA5400008AC2 /* CollectionViewController.swift */; };
+		588668BD254187E8008A60A8 /* VenueLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588668BC254187E8008A60A8 /* VenueLocationViewController.swift */; };
+		5889BE19255E83B600B22ACD /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE18255E83B600B22ACD /* SwipeDirection.swift */; };
+		5889BE22255E83C700B22ACD /* CardStackStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE1A255E83C700B22ACD /* CardStackStateManager.swift */; };
+		5889BE23255E83C700B22ACD /* SwipeCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE1B255E83C700B22ACD /* SwipeCardStack.swift */; };
+		5889BE24255E83C700B22ACD /* SwipeCardStackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE1C255E83C700B22ACD /* SwipeCardStackDelegate.swift */; };
+		5889BE25255E83C700B22ACD /* CardStackAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE1D255E83C700B22ACD /* CardStackAnimator.swift */; };
+		5889BE26255E83C700B22ACD /* CardStackTransformProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE1E255E83C700B22ACD /* CardStackTransformProvider.swift */; };
+		5889BE27255E83C700B22ACD /* CardStackLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE1F255E83C700B22ACD /* CardStackLayoutProvider.swift */; };
+		5889BE28255E83C700B22ACD /* SwipeCardStackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE20255E83C700B22ACD /* SwipeCardStackDataSource.swift */; };
+		5889BE29255E83C700B22ACD /* CardStackAnimationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE21255E83C700B22ACD /* CardStackAnimationOptions.swift */; };
+		5889BE31255E83D200B22ACD /* SwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE2A255E83D200B22ACD /* SwipeCard.swift */; };
+		5889BE32255E83D200B22ACD /* CardTransformProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE2B255E83D200B22ACD /* CardTransformProvider.swift */; };
+		5889BE33255E83D200B22ACD /* SwipeCardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE2C255E83D200B22ACD /* SwipeCardDelegate.swift */; };
+		5889BE34255E83D200B22ACD /* CardAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE2D255E83D200B22ACD /* CardAnimator.swift */; };
+		5889BE35255E83D200B22ACD /* CardLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE2E255E83D200B22ACD /* CardLayoutProvider.swift */; };
+		5889BE36255E83D200B22ACD /* CardAnimationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE2F255E83D200B22ACD /* CardAnimationOptions.swift */; };
+		5889BE37255E83D200B22ACD /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE30255E83D200B22ACD /* SwipeView.swift */; };
+		5889BE40255E83DD00B22ACD /* TapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE38255E83DD00B22ACD /* TapGestureRecognizer.swift */; };
+		5889BE41255E83DD00B22ACD /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE39255E83DD00B22ACD /* Animator.swift */; };
+		5889BE42255E83DD00B22ACD /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE3A255E83DD00B22ACD /* CGVector+Extensions.swift */; };
+		5889BE43255E83DD00B22ACD /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE3B255E83DD00B22ACD /* Array+Extensions.swift */; };
+		5889BE44255E83DD00B22ACD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE3C255E83DD00B22ACD /* UIView+Extensions.swift */; };
+		5889BE45255E83DD00B22ACD /* PanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE3D255E83DD00B22ACD /* PanGestureRecognizer.swift */; };
+		5889BE46255E83DD00B22ACD /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE3E255E83DD00B22ACD /* CGPoint+Extensions.swift */; };
+		5889BE47255E83DD00B22ACD /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5889BE3F255E83DD00B22ACD /* StringUtils.swift */; };
+		5889BE49255ED08800B22ACD /* hate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5889BE48255ED08800B22ACD /* hate.png */; };
+		5889BE4B255ED0C000B22ACD /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 5889BE4A255ED0C000B22ACD /* love.png */; };
+		589B902C254FBECA00EEECDA /* LaunchScreen.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 5884943F25398D1300008AC2 /* LaunchScreen.storyboard */; };
+		589B902D254FBED200EEECDA /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 5884943A25398D1200008AC2 /* Main.storyboard */; };
+		58A9A904254664A300E6E6EC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9A903254664A300E6E6EC /* Event.swift */; };
+		58A9A9132546ADCA00E6E6EC /* star-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A9A9112546ADCA00E6E6EC /* star-filled.png */; };
+		58A9A9142546ADCA00E6E6EC /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A9A9122546ADCA00E6E6EC /* star.png */; };
+		58A9A9162546C3B000E6E6EC /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9A9152546C3B000E6E6EC /* Venue.swift */; };
+		58A9A91B2546C75100E6E6EC /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A9A91A2546C75100E6E6EC /* about.png */; };
+		58E32BA8253ABD2B0048576B /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E32BA7253ABD2B0048576B /* FavouritesViewController.swift */; };
+		58E32BAA253AC7F50048576B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E32BA9253AC7F50048576B /* logo.png */; };
+		58E45F6F255A2A76008DE32D /* BrowsingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E45F6E255A2A76008DE32D /* BrowsingViewController.swift */; };
+		58E45F73255B91E9008DE32D /* Interested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E45F72255B91E9008DE32D /* Interested.swift */; };
+		58E45F76255BCC84008DE32D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E45F75255BCC84008DE32D /* MapKit.framework */; };
+		58E45F78255BEB4C008DE32D /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E45F77255BEB4C008DE32D /* like.png */; };
+		58E45F7A255BEB60008DE32D /* dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E45F79255BEB5F008DE32D /* dislike.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5884944825398D1300008AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5884942625398D1200008AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5884942D25398D1200008AC2;
+			remoteInfo = FringeFestival;
+		};
+		5884945325398D1300008AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5884942625398D1200008AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5884942D25398D1200008AC2;
+			remoteInfo = FringeFestival;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58329FA1255E779600C979AE /* heart_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_dark.png; sourceTree = "<group>"; };
+		58329FA3255E779E00C979AE /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		586EE02F25493EE0004D3DB1 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
+		5884942E25398D1200008AC2 /* FringeFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FringeFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5884943125398D1200008AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = FringeFestival/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		5884943425398D1200008AC2 /* FringeFestival.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FringeFestival.xcdatamodel; sourceTree = "<group>"; };
+		5884943625398D1200008AC2 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		5884943825398D1200008AC2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5884943B25398D1200008AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5884943D25398D1300008AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5884944025398D1300008AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5884944225398D1300008AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5884944725398D1300008AC2 /* FringeFestivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FringeFestivalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5884945225398D1300008AC2 /* FringeFestivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FringeFestivalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588494652539974D00008AC2 /* 0002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0002.jpg; sourceTree = "<group>"; };
+		588494662539974D00008AC2 /* 0001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0001.jpg; sourceTree = "<group>"; };
+		588494672539974D00008AC2 /* 0004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0004.jpg; sourceTree = "<group>"; };
+		588494682539974D00008AC2 /* 0005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0005.jpg; sourceTree = "<group>"; };
+		588494692539974E00008AC2 /* 0003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0003.jpg; sourceTree = "<group>"; };
+		5884946F2539978900008AC2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		58849471253998FC00008AC2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5884947325399E2300008AC2 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		588494772539A00F00008AC2 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		588494792539AA5400008AC2 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		588668BC254187E8008A60A8 /* VenueLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueLocationViewController.swift; sourceTree = "<group>"; };
+		5889BE18255E83B600B22ACD /* SwipeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		5889BE1A255E83C700B22ACD /* CardStackStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackStateManager.swift; sourceTree = "<group>"; };
+		5889BE1B255E83C700B22ACD /* SwipeCardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardStack.swift; sourceTree = "<group>"; };
+		5889BE1C255E83C700B22ACD /* SwipeCardStackDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardStackDelegate.swift; sourceTree = "<group>"; };
+		5889BE1D255E83C700B22ACD /* CardStackAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackAnimator.swift; sourceTree = "<group>"; };
+		5889BE1E255E83C700B22ACD /* CardStackTransformProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackTransformProvider.swift; sourceTree = "<group>"; };
+		5889BE1F255E83C700B22ACD /* CardStackLayoutProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackLayoutProvider.swift; sourceTree = "<group>"; };
+		5889BE20255E83C700B22ACD /* SwipeCardStackDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardStackDataSource.swift; sourceTree = "<group>"; };
+		5889BE21255E83C700B22ACD /* CardStackAnimationOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackAnimationOptions.swift; sourceTree = "<group>"; };
+		5889BE2A255E83D200B22ACD /* SwipeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCard.swift; sourceTree = "<group>"; };
+		5889BE2B255E83D200B22ACD /* CardTransformProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTransformProvider.swift; sourceTree = "<group>"; };
+		5889BE2C255E83D200B22ACD /* SwipeCardDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardDelegate.swift; sourceTree = "<group>"; };
+		5889BE2D255E83D200B22ACD /* CardAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAnimator.swift; sourceTree = "<group>"; };
+		5889BE2E255E83D200B22ACD /* CardLayoutProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardLayoutProvider.swift; sourceTree = "<group>"; };
+		5889BE2F255E83D200B22ACD /* CardAnimationOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAnimationOptions.swift; sourceTree = "<group>"; };
+		5889BE30255E83D200B22ACD /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		5889BE38255E83DD00B22ACD /* TapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGestureRecognizer.swift; sourceTree = "<group>"; };
+		5889BE39255E83DD00B22ACD /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		5889BE3A255E83DD00B22ACD /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		5889BE3B255E83DD00B22ACD /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		5889BE3C255E83DD00B22ACD /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		5889BE3D255E83DD00B22ACD /* PanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanGestureRecognizer.swift; sourceTree = "<group>"; };
+		5889BE3E255E83DD00B22ACD /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		5889BE3F255E83DD00B22ACD /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		5889BE48255ED08800B22ACD /* hate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hate.png; sourceTree = "<group>"; };
+		5889BE4A255ED0C000B22ACD /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		58A9A903254664A300E6E6EC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		58A9A9112546ADCA00E6E6EC /* star-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-filled.png"; sourceTree = "<group>"; };
+		58A9A9122546ADCA00E6E6EC /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		58A9A9152546C3B000E6E6EC /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		58A9A91A2546C75100E6E6EC /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		58E32BA7253ABD2B0048576B /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		58E32BA9253AC7F50048576B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Images/logo.png; sourceTree = SOURCE_ROOT; };
+		58E45F6E255A2A76008DE32D /* BrowsingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingViewController.swift; sourceTree = "<group>"; };
+		58E45F72255B91E9008DE32D /* Interested.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interested.swift; sourceTree = "<group>"; };
+		58E45F75255BCC84008DE32D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		58E45F77255BEB4C008DE32D /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		58E45F79255BEB5F008DE32D /* dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislike.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5884942B25398D1200008AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E45F76255BCC84008DE32D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5884944425398D1300008AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5884944F25398D1300008AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5884942525398D1200008AC2 = {
+			isa = PBXGroup;
+			children = (
+				5889BE4C255ED6FB00B22ACD /* Controller */,
+				5889BE17255E839B00B22ACD /* Card */,
+				58A9A9172546C47800E6E6EC /* Model */,
+				588494642539973500008AC2 /* Images */,
+				5884943025398D1200008AC2 /* FringeFestival */,
+				5884942F25398D1200008AC2 /* Products */,
+				58E45F74255BCC84008DE32D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5884942F25398D1200008AC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5884942E25398D1200008AC2 /* FringeFestival.app */,
+				5884944725398D1300008AC2 /* FringeFestivalTests.xctest */,
+				5884945225398D1300008AC2 /* FringeFestivalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5884943025398D1200008AC2 /* FringeFestival */ = {
+			isa = PBXGroup;
+			children = (
+				5884947325399E2300008AC2 /* Cell.swift */,
+				58849471253998FC00008AC2 /* DataManager.swift */,
+				5884946F2539978900008AC2 /* SwiftyJSON.swift */,
+				5884943125398D1200008AC2 /* AppDelegate.swift */,
+				5884943A25398D1200008AC2 /* Main.storyboard */,
+				5884943D25398D1300008AC2 /* Assets.xcassets */,
+				5884943F25398D1300008AC2 /* LaunchScreen.storyboard */,
+				5884944225398D1300008AC2 /* Info.plist */,
+				5884943325398D1200008AC2 /* FringeFestival.xcdatamodeld */,
+			);
+			path = FringeFestival;
+			sourceTree = "<group>";
+		};
+		588494642539973500008AC2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5889BE48255ED08800B22ACD /* hate.png */,
+				5889BE4A255ED0C000B22ACD /* love.png */,
+				58329FA3255E779E00C979AE /* heart.png */,
+				58329FA1255E779600C979AE /* heart_dark.png */,
+				58E45F79255BEB5F008DE32D /* dislike.png */,
+				58E45F77255BEB4C008DE32D /* like.png */,
+				58A9A91A2546C75100E6E6EC /* about.png */,
+				58A9A9112546ADCA00E6E6EC /* star-filled.png */,
+				58A9A9122546ADCA00E6E6EC /* star.png */,
+				58E32BA9253AC7F50048576B /* logo.png */,
+				588494662539974D00008AC2 /* 0001.jpg */,
+				588494652539974D00008AC2 /* 0002.jpg */,
+				588494692539974E00008AC2 /* 0003.jpg */,
+				588494672539974D00008AC2 /* 0004.jpg */,
+				588494682539974D00008AC2 /* 0005.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5889BE17255E839B00B22ACD /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				5889BE21255E83C700B22ACD /* CardStackAnimationOptions.swift */,
+				5889BE1D255E83C700B22ACD /* CardStackAnimator.swift */,
+				5889BE1F255E83C700B22ACD /* CardStackLayoutProvider.swift */,
+				5889BE1A255E83C700B22ACD /* CardStackStateManager.swift */,
+				5889BE1E255E83C700B22ACD /* CardStackTransformProvider.swift */,
+				5889BE2F255E83D200B22ACD /* CardAnimationOptions.swift */,
+				5889BE2D255E83D200B22ACD /* CardAnimator.swift */,
+				5889BE2E255E83D200B22ACD /* CardLayoutProvider.swift */,
+				5889BE2B255E83D200B22ACD /* CardTransformProvider.swift */,
+				5889BE2A255E83D200B22ACD /* SwipeCard.swift */,
+				5889BE2C255E83D200B22ACD /* SwipeCardDelegate.swift */,
+				5889BE30255E83D200B22ACD /* SwipeView.swift */,
+				5889BE1B255E83C700B22ACD /* SwipeCardStack.swift */,
+				5889BE39255E83DD00B22ACD /* Animator.swift */,
+				5889BE3B255E83DD00B22ACD /* Array+Extensions.swift */,
+				5889BE3E255E83DD00B22ACD /* CGPoint+Extensions.swift */,
+				5889BE3A255E83DD00B22ACD /* CGVector+Extensions.swift */,
+				5889BE3D255E83DD00B22ACD /* PanGestureRecognizer.swift */,
+				5889BE3F255E83DD00B22ACD /* StringUtils.swift */,
+				5889BE38255E83DD00B22ACD /* TapGestureRecognizer.swift */,
+				5889BE3C255E83DD00B22ACD /* UIView+Extensions.swift */,
+				5889BE20255E83C700B22ACD /* SwipeCardStackDataSource.swift */,
+				5889BE1C255E83C700B22ACD /* SwipeCardStackDelegate.swift */,
+				5889BE18255E83B600B22ACD /* SwipeDirection.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		5889BE4C255ED6FB00B22ACD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				588668BC254187E8008A60A8 /* VenueLocationViewController.swift */,
+				58E32BA7253ABD2B0048576B /* FavouritesViewController.swift */,
+				588494792539AA5400008AC2 /* CollectionViewController.swift */,
+				5884943625398D1200008AC2 /* MasterViewController.swift */,
+				5884943825398D1200008AC2 /* DetailViewController.swift */,
+				588494772539A00F00008AC2 /* EventViewController.swift */,
+				58E45F6E255A2A76008DE32D /* BrowsingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58A9A9172546C47800E6E6EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58A9A903254664A300E6E6EC /* Event.swift */,
+				58A9A9152546C3B000E6E6EC /* Venue.swift */,
+				586EE02F25493EE0004D3DB1 /* Ratings.swift */,
+				58E45F72255B91E9008DE32D /* Interested.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58E45F74255BCC84008DE32D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58E45F75255BCC84008DE32D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5884942D25398D1200008AC2 /* FringeFestival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5884945B25398D1300008AC2 /* Build configuration list for PBXNativeTarget "FringeFestival" */;
+			buildPhases = (
+				5884942A25398D1200008AC2 /* Sources */,
+				5884942B25398D1200008AC2 /* Frameworks */,
+				5884942C25398D1200008AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FringeFestival;
+			productName = FringeFestival;
+			productReference = 5884942E25398D1200008AC2 /* FringeFestival.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5884944625398D1300008AC2 /* FringeFestivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5884945E25398D1300008AC2 /* Build configuration list for PBXNativeTarget "FringeFestivalTests" */;
+			buildPhases = (
+				5884944325398D1300008AC2 /* Sources */,
+				5884944425398D1300008AC2 /* Frameworks */,
+				5884944525398D1300008AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5884944925398D1300008AC2 /* PBXTargetDependency */,
+			);
+			name = FringeFestivalTests;
+			productName = FringeFestivalTests;
+			productReference = 5884944725398D1300008AC2 /* FringeFestivalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5884945125398D1300008AC2 /* FringeFestivalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5884946125398D1300008AC2 /* Build configuration list for PBXNativeTarget "FringeFestivalUITests" */;
+			buildPhases = (
+				5884944E25398D1300008AC2 /* Sources */,
+				5884944F25398D1300008AC2 /* Frameworks */,
+				5884945025398D1300008AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5884945425398D1300008AC2 /* PBXTargetDependency */,
+			);
+			name = FringeFestivalUITests;
+			productName = FringeFestivalUITests;
+			productReference = 5884945225398D1300008AC2 /* FringeFestivalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5884942625398D1200008AC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tran, Thi Khanh Uyen - traty145";
+				TargetAttributes = {
+					5884942D25398D1200008AC2 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5884944625398D1300008AC2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5884942D25398D1200008AC2;
+					};
+					5884945125398D1300008AC2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5884942D25398D1200008AC2;
+					};
+				};
+			};
+			buildConfigurationList = 5884942925398D1200008AC2 /* Build configuration list for PBXProject "FringeFestival" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5884942525398D1200008AC2;
+			productRefGroup = 5884942F25398D1200008AC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5884942D25398D1200008AC2 /* FringeFestival */,
+				5884944625398D1300008AC2 /* FringeFestivalTests */,
+				5884945125398D1300008AC2 /* FringeFestivalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5884942C25398D1200008AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A9A9132546ADCA00E6E6EC /* star-filled.png in Resources */,
+				5889BE4B255ED0C000B22ACD /* love.png in Resources */,
+				5884946A2539974E00008AC2 /* 0002.jpg in Resources */,
+				58E32BAA253AC7F50048576B /* logo.png in Resources */,
+				58329FA2255E779600C979AE /* heart_dark.png in Resources */,
+				58329FA4255E779E00C979AE /* heart.png in Resources */,
+				58E45F7A255BEB60008DE32D /* dislike.png in Resources */,
+				5884946E2539974E00008AC2 /* 0003.jpg in Resources */,
+				5884946B2539974E00008AC2 /* 0001.jpg in Resources */,
+				5884943E25398D1300008AC2 /* Assets.xcassets in Resources */,
+				58A9A9142546ADCA00E6E6EC /* star.png in Resources */,
+				5884946C2539974E00008AC2 /* 0004.jpg in Resources */,
+				5889BE49255ED08800B22ACD /* hate.png in Resources */,
+				5884946D2539974E00008AC2 /* 0005.jpg in Resources */,
+				58A9A91B2546C75100E6E6EC /* about.png in Resources */,
+				58E45F78255BEB4C008DE32D /* like.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5884944525398D1300008AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5884945025398D1300008AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5884942A25398D1200008AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5889BE19255E83B600B22ACD /* SwipeDirection.swift in Sources */,
+				5889BE42255E83DD00B22ACD /* CGVector+Extensions.swift in Sources */,
+				5889BE46255E83DD00B22ACD /* CGPoint+Extensions.swift in Sources */,
+				5889BE36255E83D200B22ACD /* CardAnimationOptions.swift in Sources */,
+				5889BE40255E83DD00B22ACD /* TapGestureRecognizer.swift in Sources */,
+				589B902D254FBED200EEECDA /* Main.storyboard in Sources */,
+				5889BE47255E83DD00B22ACD /* StringUtils.swift in Sources */,
+				589B902C254FBECA00EEECDA /* LaunchScreen.storyboard in Sources */,
+				58E45F6F255A2A76008DE32D /* BrowsingViewController.swift in Sources */,
+				5889BE31255E83D200B22ACD /* SwipeCard.swift in Sources */,
+				5889BE26255E83C700B22ACD /* CardStackTransformProvider.swift in Sources */,
+				5889BE23255E83C700B22ACD /* SwipeCardStack.swift in Sources */,
+				5884947A2539AA5400008AC2 /* CollectionViewController.swift in Sources */,
+				5889BE32255E83D200B22ACD /* CardTransformProvider.swift in Sources */,
+				5889BE24255E83C700B22ACD /* SwipeCardStackDelegate.swift in Sources */,
+				5889BE25255E83C700B22ACD /* CardStackAnimator.swift in Sources */,
+				5884943525398D1200008AC2 /* FringeFestival.xcdatamodeld in Sources */,
+				5889BE22255E83C700B22ACD /* CardStackStateManager.swift in Sources */,
+				58849472253998FC00008AC2 /* DataManager.swift in Sources */,
+				5889BE43255E83DD00B22ACD /* Array+Extensions.swift in Sources */,
+				5889BE44255E83DD00B22ACD /* UIView+Extensions.swift in Sources */,
+				58E45F73255B91E9008DE32D /* Interested.swift in Sources */,
+				5884947425399E2300008AC2 /* Cell.swift in Sources */,
+				5889BE27255E83C700B22ACD /* CardStackLayoutProvider.swift in Sources */,
+				58A9A904254664A300E6E6EC /* Event.swift in Sources */,
+				5884943225398D1200008AC2 /* AppDelegate.swift in Sources */,
+				5884943725398D1200008AC2 /* MasterViewController.swift in Sources */,
+				5889BE29255E83C700B22ACD /* CardStackAnimationOptions.swift in Sources */,
+				5889BE34255E83D200B22ACD /* CardAnimator.swift in Sources */,
+				5889BE45255E83DD00B22ACD /* PanGestureRecognizer.swift in Sources */,
+				5889BE41255E83DD00B22ACD /* Animator.swift in Sources */,
+				5889BE35255E83D200B22ACD /* CardLayoutProvider.swift in Sources */,
+				5889BE33255E83D200B22ACD /* SwipeCardDelegate.swift in Sources */,
+				5889BE37255E83D200B22ACD /* SwipeView.swift in Sources */,
+				5889BE28255E83C700B22ACD /* SwipeCardStackDataSource.swift in Sources */,
+				588494782539A00F00008AC2 /* EventViewController.swift in Sources */,
+				588668BD254187E8008A60A8 /* VenueLocationViewController.swift in Sources */,
+				588494702539978900008AC2 /* SwiftyJSON.swift in Sources */,
+				58E32BA8253ABD2B0048576B /* FavouritesViewController.swift in Sources */,
+				58A9A9162546C3B000E6E6EC /* Venue.swift in Sources */,
+				586EE03025493EE0004D3DB1 /* Ratings.swift in Sources */,
+				5884943925398D1200008AC2 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5884944325398D1300008AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5884944E25398D1300008AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5884944925398D1300008AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5884942D25398D1200008AC2 /* FringeFestival */;
+			targetProxy = 5884944825398D1300008AC2 /* PBXContainerItemProxy */;
+		};
+		5884945425398D1300008AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5884942D25398D1200008AC2 /* FringeFestival */;
+			targetProxy = 5884945325398D1300008AC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5884943A25398D1200008AC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5884943B25398D1200008AC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5884943F25398D1300008AC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5884944025398D1300008AC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5884945925398D1300008AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5884945A25398D1300008AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5884945C25398D1300008AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FringeFestival/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.au.edu.unisa.FringeFestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5884945D25398D1300008AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FringeFestival/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.au.edu.unisa.FringeFestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5884945F25398D1300008AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FringeFestivalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.au.edu.unisa.FringeFestivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FringeFestival.app/FringeFestival";
+			};
+			name = Debug;
+		};
+		5884946025398D1300008AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FringeFestivalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.au.edu.unisa.FringeFestivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FringeFestival.app/FringeFestival";
+			};
+			name = Release;
+		};
+		5884946225398D1300008AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FringeFestivalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.au.edu.unisa.FringeFestivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FringeFestival;
+			};
+			name = Debug;
+		};
+		5884946325398D1300008AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FringeFestivalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.au.edu.unisa.FringeFestivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FringeFestival;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5884942925398D1200008AC2 /* Build configuration list for PBXProject "FringeFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5884945925398D1300008AC2 /* Debug */,
+				5884945A25398D1300008AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5884945B25398D1300008AC2 /* Build configuration list for PBXNativeTarget "FringeFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5884945C25398D1300008AC2 /* Debug */,
+				5884945D25398D1300008AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5884945E25398D1300008AC2 /* Build configuration list for PBXNativeTarget "FringeFestivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5884945F25398D1300008AC2 /* Debug */,
+				5884946025398D1300008AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5884946125398D1300008AC2 /* Build configuration list for PBXNativeTarget "FringeFestivalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5884946225398D1300008AC2 /* Debug */,
+				5884946325398D1300008AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5884943325398D1200008AC2 /* FringeFestival.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5884943425398D1200008AC2 /* FringeFestival.xcdatamodel */,
+			);
+			currentVersion = 5884943425398D1200008AC2 /* FringeFestival.xcdatamodel */;
+			path = FringeFestival.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5884942625398D1200008AC2 /* Project object */;
+}
