@@ -8,7 +8,7 @@ This page displays the information of student and disclaimer, access via the mai
 This function is accessed via main menu, a list of events will be display as a Collection View
 The Data Manager class is where the JSON data is downloaded and save in Core Data as an array of Events.
 #### Display details of a Fringe event
-![alt text](https://github.com/UyenTran218/Swift-Collection-View-Core-Data-MKMapView/blob/master/ezgif.com-gif-maker.gif?raw=true)
+![alt text](https://github.com/UyenTran218/Swift-Collection-View-Core-Data-MKMapView/blob/master/fringer.gif?raw=true)
 
 When user tap on an event in the Collection View, a detail page will display event information such as name, like, dislike number, venues, description and artist.
 The Detail Page is implemented via the Cell of the Collection View, which got the current index path. 
