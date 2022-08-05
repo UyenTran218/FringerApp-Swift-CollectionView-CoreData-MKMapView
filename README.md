@@ -5,10 +5,13 @@ When user open the application, a splash page will be displayed with logo of Fri
 #### Copyright/About Page
 This page displays the information of student and disclaimer, access via the main menu of the application
 #### List of the provided Fringe events downloaded from an online database using an API
+![Simulator Screen Shot - iPhone 8 - 2022-08-05 at 13 21 16](https://user-images.githubusercontent.com/31430338/183000150-189e775f-d5ac-4d27-8bf2-cfb67a81c2ab.png)
+
 This function is accessed via main menu, a list of events will be display as a Collection View
 The Data Manager class is where the JSON data is downloaded and save in Core Data as an array of Events.
 #### Display details of a Fringe event
 ![alt text](https://github.com/UyenTran218/Swift-Collection-View-Core-Data-MKMapView/blob/master/fringer.gif?raw=true)
+![Simulator Screen Shot - iPhone 8 - 2022-08-05 at 13 21 22](https://user-images.githubusercontent.com/31430338/183000211-5ca9d070-2017-4d35-a611-b5c30d374429.png)
 
 When user tap on an event in the Collection View, a detail page will display event information such as name, like, dislike number, venues, description and artist.
 The Detail Page is implemented via the Cell of the Collection View, which got the current index path. 
@@ -20,6 +23,8 @@ User access this feature from main menu, they can browse the events and swipe ri
 This function is implemented with a third-party library called Shuffle which helps creating and displaying the Swipeable Card. 
 #### Display a map with the location of venues in Adelaide, connect the individual events so that people can see where a given event will be held
 User access this feature via main menu by clicking on Venues option, the application will ask for permission to access user location and then show Venues with their corresponding events
+![Simulator Screen Shot - iPhone 8 - 2022-08-05 at 13 21 46](https://user-images.githubusercontent.com/31430338/182999845-0e848519-31f5-486b-978d-209d7ee52645.png)
+
 Using Map Kit to display the Map View and create annotations. In Data Manager, Venues location is downloaded and save to Core Data. The longitude and latitude are used to create the annotation, then event name is displayed with the venue where it is held by a searching event function.
 #### Upload Likes/Dislikes, send one like or dislike per show
 In the Detail View, users can like or dislike an event and the like/dislike number will be updated.
