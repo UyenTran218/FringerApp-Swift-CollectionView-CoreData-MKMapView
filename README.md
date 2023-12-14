@@ -1,5 +1,5 @@
 # Fringer - CollectionView - CoreData - MKMapView 
-## **Features:**
+## **Main Features:**
 #### Splash page showing an image of the Adelaide Fringe
 When user open the application, a splash page will be displayed with logo of Fringe Festival. Then a Main Menu will display as a Table View for user to access the other features of the application.
 #### Copyright/About Page
